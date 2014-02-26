@@ -1,0 +1,21 @@
+.content-table thead{
+    background: #808080;
+}
+.content-table tfoot {
+    background: #D0D0D0;
+}
+.btn-add {
+    background: silver;
+    border: none;
+    width: 100px;
+    height: 30px;
+    float: right;
+    position: relative;
+}
+.triangle {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    border-right: 30px solid silver;
+    border-top: 30px solid transparent;
+}

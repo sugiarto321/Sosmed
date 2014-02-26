@@ -1,0 +1,155 @@
+body{
+	background: url('../image/background.jpg');
+}
+#top{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 99999;
+	left:0px;
+	background: black;
+	height: 40px;
+	padding:0px;
+}
+#menu-top{
+	width:1024px;
+	height: 40px;
+	margin: auto;
+}
+#form{
+	position: relative;
+	top:10px;
+	float: right;
+}
+#cart-colection{
+	position: relative;
+	top:10px;
+	float: left;
+}
+#cart-colection a{
+	display:block;
+	background: orange;
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+	border-radius: 20px;
+	color: white;
+}
+*{
+	font-family: Arial;
+}
+#wrapper{
+	position: relative;
+	top:40px;
+    width: 1024px;
+	margin: auto;
+}
+#header{
+    width: 1024px;
+    height: 230px;
+}
+#header img{
+	padding-top:35px;
+	width: 230px;
+}
+#menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+    width: 1024px;
+    border-bottom: 3px solid white;
+    position: relative;
+	/* box-shadow: 0 3px 5px 3px black; */
+}
+#menu ul{
+	display: inline;
+}
+#menu ul li{
+    color:white;
+    list-style: none;
+	display: inline;
+}
+#menu, #menu a{
+	background: black;
+}
+#menu a:hover{
+	color:gold;
+}
+#menu a{
+    display: inline-block;
+    width: 120px;
+    color:white;
+    text-align: center;
+    padding-top: 3px;
+    height: 20px;
+    padding-bottom: 3px;
+	text-decoration: none;
+}
+#search{
+    position: absolute;
+    top: 10px;
+	right: 20px;
+}
+#search-place{
+	position: relative;
+	float: left;
+	margin: 0px;
+	height: 10px;
+	height:25px;
+}
+
+#search-place form{
+	background:#AAA;
+	padding:2px;
+	border-radius:10px;
+}
+#search-box{
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border: 1px solid #AAA;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#submit-search{
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	width:25px;
+	background: #AAA url('1377866611_search.png');
+	background-repeat:no-repeat;
+	border: 1px solid #AAA;
+	background-position: center;
+}
+#search-place input:focus{
+	box-shadow: 0 0 5px 1px #77F;
+}
+#content{
+    width: 1024px;
+    background: url(BG.png);
+    margin-top: 20px;
+	/*box-shadow: 0 3px 5px 3px black;*/
+}
+#social{
+	width: 1024px;
+	height: 30px;
+}
+#footer{
+    width: 1024px;
+    color:white;
+    min-height: 100px;
+    background: black;
+    border-top: 3px solid white;
+	/*box-shadow: 0 3px 5px 3px black;*/
+}
+
+#footer center{
+	margin-top: 20px;
+}
+#footer a:hover{
+	color: gold;
+}
+#footer a{
+    color: white;
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}

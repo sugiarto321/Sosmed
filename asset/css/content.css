@@ -1,0 +1,225 @@
+/*#left-menu, #right-content{
+	box-shadow: 0px 0 2px 5px black;
+}*/
+
+#slider{
+	margin-top:10px;
+	margin:auto;
+	text-align:center;
+    width:950px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+}
+
+#slider img{
+	width:950px;
+	height: 400px;
+}
+
+#left-menu{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:10px;
+	/*background: white; */
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+#right-content{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 780px;
+	/*background: white;*/
+	min-height: 200px;
+}
+#filter{
+	position: relative;
+	width: 100%;
+	margin-top: 5px;
+	height:25px;
+	background: white;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+	box-shadow: 0 2px 2px 1px black;
+}
+#catalog-thumbnail{
+	width:100%;
+	margin-top: 5px;
+	min-height: 200px;
+	background: none;
+}
+.list-item{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin-left: 30px;
+	position: relative;
+}
+.image-container a{
+	text-decoration: none;
+	color:white;
+}
+.image-container{
+	float:left;
+	background: white;
+	width: 150px;
+	height: 200px;
+	padding: 5px;
+	margin: 10px;
+	position: relative;
+	box-shadow: 0px 0 1px 0px black;
+}
+.label{
+	width: 170px;
+	position: absolute;
+	bottom: -15px;
+	left:-5px;
+	text-align: center;
+	color:white;
+	height: 25px;
+}
+.label, .label-price{
+	background: #111;
+	box-shadow: 0px 0 1px 0px black;
+}
+.label-price{
+	width: 170px;
+	position: absolute;
+	bottom: -35px;
+	padding-top:10px;
+	left:-5px;
+	text-align: center;
+	color:white;
+	height: 20px;
+}
+#pagination{
+	width: 100%;
+	text-align: center;
+}
+#pagination a{
+	text-decoration: none;
+	display: inline-block;
+	width: 20px;
+	background: black;
+	border-radius: 10px;
+	color:white;
+}
+
+.sort-position{
+	position: absolute;
+	right: 40px;
+}
+
+
+
+
+
+
+
+#search-table{
+    color:white;
+    background: graytext;
+    border-bottom-right-radius: 90px;
+    padding: 10px;
+}
+
+.content-cloth-table{
+    margin-top: 10px;
+    border-radius: 10px;
+    color:white;
+    background: graytext;
+    padding-bottom: 10px;
+    text-align:  center;
+}
+
+.content-cloth-table thead{
+    height:40px;
+}
+
+.content-cloth-table thead a{
+    color:white;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+.content-cloth-table thead a:hover{
+    background: silver;
+}
+
+.loader{
+    width:100px;
+    height:10px;
+    border:1px solid white;
+    margin: auto;
+}
+.btn-update, .btn-delete, .btn-submit{
+    display: inline-block;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color:white;
+    margin: 0px;
+    border: 0px;
+}
+
+.btn-submit{
+    background: blue;
+}
+.btn-delete{
+    background: red;
+}
+.btn-update{
+    background: green;
+}
+
+.btn-create{
+    border:0px;
+    display: block;
+    color:white;
+    background: orange;
+    width:100px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: -3px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#content-table thead{
+    background: graytext;
+}
+#content-table thead tr{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#content-table thead a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#content-table thead a:hover{
+    color: white;
+    background: silver;
+}
+
+.ganjil{
+    background: white;
+    color:black;
+}
+.genap{
+    background: #888;
+    color: white;
+}
+.error{
+    width: 100%;
+    background: red;
+    color:white;
+}

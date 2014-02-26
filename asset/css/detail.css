@@ -1,0 +1,156 @@
+#left-detail{
+	width: 490px;
+	height: 420px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+}
+#right-detail{
+	float: right;
+	width: 300px;
+	min-height: 300px;
+	margin-right: 200px;
+	margin-top: 20px;
+	position: relative;
+}
+#image-popup{
+	width: 150px;
+	height:200px;
+	padding: 5px;
+	box-shadow: 0 0px 1px 0px black;
+	background: white;
+}
+
+#control-cart button, #control-cart input{
+	width:120px;
+	height:30px;
+	border:none;
+	color:white;
+	border-radius: 20px;
+}
+#control-cart button{
+	background: red;
+}
+#control-cart input{
+	background: orange;
+}
+#control-cart button:hover, #control-cart input:hover{
+	background: black;
+}
+
+#image-popup img{
+	width:150px;
+	height:200px;
+}
+
+#image-container{
+	width: 300px;
+	height:400px;
+	right: 0px;
+	padding: 5px;
+	box-shadow: 0 0px 1px 0px black;
+	position: absolute;
+	background: white;
+}
+#image-container img{
+	width:  300px;
+	height: 400px;
+}
+
+.text-title, .text-label{
+	padding-top: 3px;
+	padding-bottom: 5px;
+	width: 100%;
+	text-align: center;
+	margin-top: 3px;
+}
+.text-title{
+	color:white;
+	background: black;
+}
+.text-title-id{
+	width: 100%;
+	height:20px;
+}
+.text-title-id-pos{
+	width: 50px;
+	padding-top:5px;
+	padding-bottom:20px;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	color:white;
+	background: orange;
+}
+.text-title a{
+	color:white;
+	text-decoration:none;
+}
+.text-title a:hover{
+	color:gold;
+}
+.text-label{
+	color:orange;
+}
+.text-label a{
+	color: brown;
+	text-decoration: none;
+}
+.text-label a:hover{
+	color: gold;
+}
+.line{
+	border-top: 1px solid black;
+}
+
+.text-label-back{
+	width:100%;
+	text-align: left;
+}
+.text-label-back a{
+	color: orange;
+	text-decoration: none;
+}
+
+.text-label .radio{
+	background: black;
+	color:white;
+	width: 100px;
+}
+
+.ck{
+	background: green;
+}
+.text-label input[type=radio]{
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	margin: 0 0.4em 0.4em 0;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: blue;
+	box-shadow:inset 1px 1px 0 #fff, 0 1px 1px rgba(0,0,0,0.1);
+}
+.order{
+	position: relative;
+	right:-145px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.order a{
+	display:block;
+	text-align: right;
+	text-decoration: none;
+	color:white;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-right:5px;
+	width:150px;
+	background: orange;
+}
+.order a img{
+	border:none;
+	float:left;
+	padding-left:10px;
+}
